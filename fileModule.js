@@ -4,10 +4,13 @@ var fileModule = {
         fs.writeFile(tenFile, noiDung,myCallback);
     },
     docFile: function(tenFile){
-        fs.readFile(tenFile,'utf-8', function (err, data) {
+        fs.readFile(tenFile,'utf-8',  (err, data)=>{
         if (err) throw err; 
             console.log(data);
         });
+    },
+    appendFile: (tenFile,noiDung)=>{
+        fs.appendFile(tenFile, noiDung,myCallback);
     }
 }
 function myCallback(err){
