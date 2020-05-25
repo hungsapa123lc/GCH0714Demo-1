@@ -4,7 +4,8 @@ var myFileModule = require('./fileModule.js');
 myModule.myPrint('hi hey hi');
 myModule.myPrint2('hi hey hi');
 
-myFileModule.taoFile('hello.txt','xin chao nhe2!!!!');
+//myFileModule.taoFile('hello.txt','xin chao nhe2!!!!');
+myFileModule.docFile('hello.txt');
 
 let k = myMath.hamMu(2,4);
 console.log(k);
