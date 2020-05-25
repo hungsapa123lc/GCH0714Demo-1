@@ -1,7 +1,9 @@
 var myModule = require('./myModule.js');
 var myMath = require('./math.js');
+var myFileModule = require('./fileModule.js');
 myModule.myPrint('hi hey hi');
 myModule.myPrint2('hi hey hi');
+myFileModule.taoFile('hello.txt','xin chao nhe!!!!');
 
 let k = myMath.hamMu(2,4);
 console.log(k);
