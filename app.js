@@ -5,6 +5,7 @@ myModule.myPrint2('hi hey hi');
 
 let k = myMath.hamMu(2,4);
 console.log(k);
+console.log(myMath.hamSqrt(16));
 
 for(i=1;i<=5;i++)
 {

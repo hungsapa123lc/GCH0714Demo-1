@@ -5,6 +5,9 @@ var myMathFunctions={
            result = result*a;
         }
         return result;
+    },
+    hamSqrt: function(n){
+        return Math.sqrt(n);
     }
 }
 module.exports = myMathFunctions;
