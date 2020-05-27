@@ -6,8 +6,12 @@ myModule.myPrint('hi hey hi');
 myModule.myPrint2('hi hey hi');
 
 //myFileModule.taoFile('hello.txt','xin chao nhe2!!!!');
-myFileModule.appendFile('hello.txt','aaaddd hungry!!!1')
-myFileModule.docFile('hello.txt');
+//myFileModule.appendFile('hello.txt','aaaddd hungry!!!1')
+//myFileModule.docFile('hello.txt');
+
+var stringModule = require('./stringModule.js');
+console.log(stringModule.subString('a nice day','nice'));
+console.log(stringModule.subString('a nice day','bad'));
 
 let k = myMath.hamMu(2,4);
 console.log(k);
