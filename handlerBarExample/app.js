@@ -8,9 +8,12 @@ app.set('views','./views');
 app.set('view engine','hbs');
 
 app.get('/', function (req, res) {
-    res.render('index',{name:"Mr.Bean"});
+    res.render('index',{name:"Mr.Bean",email:"Bean@gmail.com"});
 
 });
+app.get('/login',(req,res)=>{
+    res.render('login');
+})
 
 var server = app.listen(5000, function () {
     console.log('Node server is running..');
